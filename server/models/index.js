@@ -1,6 +1,6 @@
 const Sequelize = require('sequelize')
 
-const sequelize = new Sequelize('regex', 'regex_user', 'test12345', {
+const sequelize = new Sequelize('regex', 'connector', 'password', {
     host: 'localhost',
     dialect: 'mysql'
 })
